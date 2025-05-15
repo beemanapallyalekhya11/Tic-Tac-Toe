@@ -1,0 +1,69 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  color: white;
+  margin-bottom: 20px;
+}
+
+#game-board {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  grid-template-rows: repeat(3, 100px);
+  gap: 5px;
+  position: relative;
+}
+
+.cell {
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  font-size: 2.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border: 2px solid #333;
+  font-weight: bold;
+  user-select: none;
+}
+
+.cell.x {
+  color: #ff0066;
+}
+
+.cell.o {
+  color: #00bfff;
+}
+
+#statusMessage {
+  color: white;
+  margin-top: 15px;
+  font-size: 1.2rem;
+}
+
+#restartButton {
+  margin-top: 10px;
+  padding: 8px 16px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  background-color: white;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+#restartButton:hover {
+  background-color: #e0e0e0;
+}
