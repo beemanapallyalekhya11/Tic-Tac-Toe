@@ -32,15 +32,6 @@ draw. It’s a simple yet strategic game that can be played on paper or as a dig
 ![Draw](images/2.png)
 
 
-📦 How to Run
-
-1. Clone the repository:
-  git clone https://github.com/yourusername/tic-tac-toe.git
-
-2. Navigate to the project folder:
- cd tic-tac-toe
- 
-3. Open `index.html` in your web browser.
 
 🛠️ Technologies Used
 
